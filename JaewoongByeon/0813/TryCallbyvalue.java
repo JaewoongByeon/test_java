@@ -1,0 +1,17 @@
+public class TryCallbyvalue {
+    static int globalValue = 20;
+
+    public static void main(String[] args) {
+        int localValue = 50;
+        System.out.printf("\nbefore change: " + localValue);
+        localValue = change(500);
+        System.out.printf("\nafter change: " + localValue);
+        System.out.printf("\nglobal: " + globalValue);
+    }
+
+    public static int change(int data) {
+        int retrunValue;
+        retrunValue = data + 100;
+        return retrunValue;
+    }
+}
