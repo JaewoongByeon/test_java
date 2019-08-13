@@ -17,6 +17,14 @@ public class TryCollection {
         hmap.put("str", list);
         hmap.put("integer", list2);
         ArrayList<Integer> outlist01 = new ArrayList<Integer>();
-        outlist01.add = (ArrayList<Integer>) hmap.get("integer");
+        outlist01 = (ArrayList<Integer>) hmap.get("integer");
+        ArrayList<String> outlist02 = new ArrayList<String>();
+        outlist02 = (ArrayList<String>) hmap.get("str");
+        for (int i = 0; i < outlist01.size(); i++) {
+            System.out.printf("\nlist1 [" + i + "] = " + outlist01.get(i));
+        }
+        for (int i = 0; i < outlist02.size(); i++) {
+            System.out.printf("\nlist2 [" + i + "] = " + outlist02.get(i));
+        }
     }
 }

@@ -2,27 +2,7 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - hashMap",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "hashMap"
+            "mainClass": "${file}"
         },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - tryHashMap",
-            "request": "launch",
-            "mainClass": "tryHashMap"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - tryArrayListMethod",
-            "request": "launch",
-            "mainClass": "tryArrayListMethod"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - tryString",
-            "request": "launch",
-            "mainClass": "tryString"
-        }
-    ]
-}
